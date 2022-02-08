@@ -1,0 +1,29 @@
+﻿
+<div class="container row blockOne" style="padding-right:10px">
+    @foreach (var item in Model)
+    {
+    
+        <div class="col-auto">
+            <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">@item.Name</div>
+                <div class="card-body">
+                    <h5 class="card-title">
+                        Описание
+                    </h5>
+                    <p class="card-text">@item.Description</p>
+                </div>
+                <a role="button" class="btn btn-secondary" 
+                   asp-controller="AboutCourse" 
+                   asp-action="Course" 
+                   asp-route-id="@item.Id">
+                    Перейти к курсу
+                </a>
+            </div>
+        </div>
+    
+    }
+</div>
+
+
+
+

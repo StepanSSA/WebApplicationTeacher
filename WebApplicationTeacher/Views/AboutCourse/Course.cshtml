@@ -1,0 +1,38 @@
+﻿<div class="container blockOne" style="padding: 40px;">
+    <div id="beginner" class="col">
+        <h1>@Model.Name</h1>
+    </div>
+    <div id="beginner" class="col">
+        <span>@Model.Description</span>
+    </div>
+    <div id="beginner" class="col">
+        <span>@Model.Size</span>
+    </div>
+    <div id="beginner" class="col">
+        <span>Цена курса @Model.Price рублей </span>
+    </div>
+    <div id="beginner" class="col">
+        @if (User.IsInRole(Model.Name))
+        {
+            <a role="button" class="btn btn-success" href="@Model.Videos">Перейти к видео</a>
+        }
+        else if (User.Identity.IsAuthenticated)
+        {
+            <a role="button" class="btn btn-header"
+                asp-controller="AboutCourse"
+                asp-action="CourseBuying"
+                asp-route-id="@Model.Id">
+                Купить
+            </a>
+        }
+        else
+        {
+            <a role="button" class="btn btn-header"
+                asp-controller="Account"
+                asp-action="Register">
+                Зарегестрироваться
+            </a>
+        }
+
+    </div>
+</div>

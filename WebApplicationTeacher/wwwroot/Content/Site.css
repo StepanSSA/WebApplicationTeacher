@@ -1,0 +1,537 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+.List-level{
+    margin: 40px;
+}
+.Object-level{
+    margin-bottom:20px;
+}
+
+.btn-header {
+    margin-right: 22px;
+    color: rgba(77,74,70,1);
+    border-color: #6c757d;
+    text-wrap: none;
+}
+.btn-header:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-secondary:focus, .btn-outline-secondary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
+    color: rgba(77,74,70,1);
+    background-color: transparent;
+}
+
+.blockOne {
+    position: fixed;
+    overflow: visible;
+    background: rgba(245,238,233,1);
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.blockTwo {
+    position: relative;
+    overflow: visible;
+    background: rgba(245,238,233,1);
+}
+
+.n___ {
+    position: absolute;
+    overflow: visible;
+    width: 1599px;
+    height: 878px;
+    left: 0px;
+    top: 1189px;
+}
+
+#n____k {
+    fill: rgba(245,238,233,1);
+}
+
+.n____k {
+    position: absolute;
+    overflow: visible;
+    width: 1599px;
+    height: 878px;
+    left: 321px;
+    top: 2224px;
+}
+
+#n__ {
+    fill: rgba(245,238,233,1);
+}
+
+.n__ {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 678px;
+    left: 0px;
+    top: 46px;
+}
+
+#n_____ {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgba(77,74,70,1);
+}
+
+#n______n {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(77,74,70,1);
+    padding-top: 50px;
+}
+
+#iconcheck {
+    overflow: visible;
+    color: rgba(109,171,115,1);
+    transform: matrix(1,0,0,1,0,0);
+}
+
+#beginner {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(77,74,70,1);
+}
+
+#elementary {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(77,74,70,1);
+}
+
+#intermediate {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(77,74,70,1);
+}
+
+#upper_intermediate {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(77,74,70,1);
+}
+
+#advanced {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(77,74,70,1);
+}
+
+#proficiency {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(77,74,70,1);
+}
+
+#ENGLISH_ {
+    transform:  rotate(90deg);
+    transform-origin: center;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    color: rgba(77,74,70,1);
+}
+
+#n___bd {
+    transform: matrix(1,0,0,1,1058,1526) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 879px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90px;
+    color: rgba(77,74,70,1);
+}
+
+#n___be {
+    left: 322px;
+    top: 1189px;
+    position: absolute;
+    overflow: visible;
+    width: 978px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgba(77,74,70,1);
+}
+
+#n_________________ {
+    left: 322px;
+    top: 1347px;
+    position: absolute;
+    overflow: visible;
+    width: 939px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(77,74,70,1);
+}
+
+#n___bg {
+    left: 322px;
+    top: 2224px;
+    position: absolute;
+    overflow: visible;
+    width: 803px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    color: rgba(77,74,70,1);
+}
+
+#n__________ {
+    left: 322px;
+    top: 2382px;
+    position: absolute;
+    overflow: visible;
+    width: 919px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(77,74,70,1);
+}
+
+#n_________ {
+    left: 321px;
+    top: 2562px;
+    position: absolute;
+    overflow: visible;
+    width: 885px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(77,74,70,1);
+}
+
+#Rectangle {
+    fill: rgba(226,222,218,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 400px;
+    left: 0px;
+    top: 3209px;
+}
+
+#n_3 {
+    position: absolute;
+    width: 625px;
+    height: 260px;
+    left: 812px;
+    top: 2785px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: ________.html;
+    cursor: pointer;
+}
+
+#n_10 {
+    fill: rgba(226,222,218,1);
+}
+
+.n_10 {
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 655px;
+    height: 290px;
+    left: 0px;
+    top: 0px;
+}
+
+#n_ {
+    left: 191px;
+    top: 96px;
+    position: absolute;
+    overflow: visible;
+    width: 245px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: rgba(52,58,64,1);
+}
+
+.Rectangle_bn {
+    position: relative;
+    overflow: visible;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: rgba(226,222,218,1);
+}
+
+#Component {
+    position: absolute;
+    width: 94px;
+    height: 39px;
+    left: 335px;
+    top: 7px;
+    overflow: visible;
+    padding: 8px 22px 12px 10px;
+}
+
+#Primary {
+    fill: transparent;
+    stroke: rgba(77,74,70,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Primary {
+    position: absolute;
+    overflow: visible;
+    width: 94px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+#Text {
+    left: 10px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(77,74,70,1);
+}
+
+#n__br {
+    position: absolute;
+    width: 94px;
+    height: 39px;
+    left: 449px;
+    top: 7px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: _______.html;
+    cursor: pointer;
+    padding: 8px 22px 12px 10px;
+}
+
+#Primary_bs {
+    fill: transparent;
+    stroke: rgba(77,74,70,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Primary_bs {
+    position: absolute;
+    overflow: visible;
+    width: 94px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+#n__bt {
+    position: static;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(77,74,70,1);
+}
+
+#n__bu {
+    position: absolute;
+    width: 98px;
+    height: 39px;
+    left: 563px;
+    top: 7px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: ________.html;
+    cursor: pointer;
+    padding: 8px 22px 12px 10px;
+}
+
+#Primary_bv {
+    fill: transparent;
+    stroke: rgba(77,74,70,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Primary_bv {
+    position: absolute;
+    overflow: visible;
+    width: 98px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+#n__bw {
+    left: 10px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(77,74,70,1);
+}
+
+#n__bx {
+    position: absolute;
+    width: 228px;
+    height: 39px;
+    left: 681px;
+    top: 7px;
+    overflow: visible;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: ______________________.html;
+    cursor: pointer;
+    padding: 8px 22px 12px 10px;
+}
+
+#Primary_by {
+    fill: transparent;
+    stroke: rgba(77,74,70,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+
+.Primary_by {
+    position: absolute;
+    overflow: visible;
+    width: 228px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+
+#n__bz {
+    left: 10px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 197px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(77,74,70,1);
+}
